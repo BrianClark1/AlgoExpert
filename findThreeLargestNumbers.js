@@ -12,6 +12,8 @@
 
 //O(nlogn) time and O(1) space, always 3 numbers
 //I presume optimal is O(n) O(1) we will see though
+//Can have conditionals after each for loop to switch position.
+//Will render time complexity O(3n), worse than optimal, but a solution nontheless 
 function findThreeLargestNumbers(array) {
   let output = [];
 
