@@ -1,6 +1,9 @@
 //Check if Palindrome
 //Need to reverse a string and compare with input value
 
+//String Concatenation, creating a new string take O(n) time inside of an O(n) for loop 
+//O(n2) ==> O(n) time 
+//O(n) space 
 function isPalindrome(string) {
   let output = "";
   for (let i = string.length - 1; i >= 0; i--) {
