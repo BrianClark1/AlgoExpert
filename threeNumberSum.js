@@ -1,4 +1,6 @@
 //Sliding Window Solution;
+//O(n2) time ==> For one for loop, we have a while loop checking indexes at every element 
+//O(n) ==> space
 function threeNumberSum(array, targetSum) {
   //Sort the array to enable us to use pointers
   array.sort((a, b) => a - b);
